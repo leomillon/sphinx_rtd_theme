@@ -4023,6 +4023,10 @@ nav.stickynav {
   top: 0;
 }
 
+.wy-table-responsive table th, .wy-table-responsive table td {
+  white-space: normal;
+}
+
 .rst-versions {
   position: fixed;
   bottom: 0;
