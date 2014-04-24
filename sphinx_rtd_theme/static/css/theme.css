@@ -4411,4 +4411,8 @@ span[id*='MathJax-Span'] {
   a:visited {
     color: #2980b9;
   }
+
+  .rdt-credits {
+    display: none;
+  }
 }
