@@ -6,18 +6,35 @@ eZy Documentation Test
 Misc
 ----
 
-This is a code block
-    .. code:: java
+This is a test page...
 
-        public class MyJavaClazz {
+.. code-block:: html
 
-            private String myString;
+   <h1>code block example</h1>
 
-            public MyJavaClazz() {
-                // This is a comment...
-            }
+.. code-block:: java
 
-        }
+   public static boolean testMethod() {
+        // This is a comment...
+        return true;
+   }
+
+.. |date| date::
+.. |time| date:: %H:%M
+
+Today's date is |date|.
+
+This document was generated on |date| at |time|.
+
+.. seealso:: This is a simple **seealso** note.
+
+:name:`The following sentence is a span with a defined class`
+
+.. container:: method
+
+   This is a container with classes `container` and `method`
+
+----
 
 -------
 Methods
